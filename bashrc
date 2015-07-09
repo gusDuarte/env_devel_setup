@@ -17,7 +17,7 @@ fi
 
 alias ll='ls -al'
 
-use_color=false
+use_color=true
 
 # Set colorful PS1 only on colorful terminals.
 # dircolors --print-database uses its own built-in database
