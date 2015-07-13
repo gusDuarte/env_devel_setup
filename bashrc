@@ -50,9 +50,14 @@ if ${use_color} ; then
         else
                 PS1='${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[01;34m\] \w \$\[\033[00m\] '
         fi
-
-        alias ls='ls --color=auto'
-        alias grep='grep --colour=auto'
+        
+        if [[ "$OSTYPE" == "linux-gnu" ]]; then 
+            alias ls='ls --color=auto'
+            alias grep='grep --colour=auto'
+        else
+            alias ls='ls -G'
+            alias grep='grep -G'
+            
 else
         if [[ ${EUID} == 0 ]] ; then
                 # show root@ when we don't have colors
@@ -104,4 +109,8 @@ alias docker-rm-all="docker rm $(docker ps -a -q)"
 
 #
 
-/usr/bin/mint-fortune
+GPGKEY=A9E6A222
+DEBFULLNAME="Gustavo Duarte"
+DEBEMAIL="gus.duarte@gmail.com"
+export DEBEMAIL
+export DEBFULLNAME
