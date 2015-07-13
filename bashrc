@@ -57,7 +57,7 @@ if ${use_color} ; then
         else
             alias ls='ls -G'
             alias grep='grep -G'
-            
+        fi            
 else
         if [[ ${EUID} == 0 ]] ; then
                 # show root@ when we don't have colors
