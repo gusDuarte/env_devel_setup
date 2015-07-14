@@ -1,0 +1,168 @@
+Host devel
+HostName 192.168.1.141
+Protocol 2
+User gustavo
+IdentityFile ~/.ssh/id_rsa
+
+Host mg3
+HostName 192.168.1.44
+Protocol 2
+User ceibal
+IdentityFile ~/.ssh/id_rsa
+
+Host mg6
+HostName 192.168.1.121
+Protocol 2
+User ceibal
+IdentityFile ~/.ssh/id_rsa
+
+Host dxu
+HostName 192.168.1.118
+Protocol 2
+User ceibal
+IdentityFile ~/.ssh/id_rsa
+
+Host xo15
+HostName 192.168.1.135
+Protocol 2
+User olpc
+IdentityFile ~/.ssh/id_rsa
+
+Host xo10
+HostName 192.168.1.136
+Protocol 2
+User olpc
+IdentityFile ~/.ssh/id_rsa
+
+Host xo42g
+HostName 192.168.1.100
+Protocol 2
+User olpc
+IdentityFile ~/.ssh/id_rsa
+
+Host xo41g
+HostName 192.168.1.145
+Protocol 2
+User olpc
+IdentityFile ~/.ssh/id_rsa
+
+Host xo175
+Hostname 192.168.1.105
+Protocol 2
+User olpc
+IdentityFile ~/.ssh/id_rsa
+
+Host build
+HostName 192.168.1.143
+Protocol 2
+User gustavo
+IdentityFile ~/.ssh/id_dsa
+
+
+Host tatu
+Hostname taturepo1.ddns.net
+Protocol 2
+User gduarte
+Port 3022
+IdentityFile ~/.ssh/id_rsa
+
+Host tatu2
+Hostname 209.208.62.105
+Protocol 2
+User root
+Port 22
+
+Host f20
+Hostname 192.168.1.123
+Protocol 2
+User gustavo
+Port 22
+
+Host ub14-32
+Hostname 192.168.1.133
+Protocol 2
+User gustavo
+Port 22
+IdentityFile ~/.ssh/id_rsa
+
+Host ub14-64
+Hostname 192.168.1.108
+Protocol 2
+User gustavo
+Port 22
+IdentityFile ~/.ssh/id_rsa
+
+Host pos
+Hostname 192.168.1.122
+Protocol 2
+User ceibal
+Port 22
+IdentityFile ~/.ssh/id_rsa
+
+Host pos2
+Hostname 192.168.1.105
+Protocol 2
+User ceibal
+Port 22
+IdentityFile ~/.ssh/id_rsa
+
+########################################################################################
+#
+#                                        B  O  L  D
+#
+########################################################################################
+
+Host pcbold
+Hostname 192.168.1.150
+Protocol 2
+User gustavo
+Port 22
+IdentityFile ~/.ssh/id_rsa
+
+Host nsmw
+Hostname nsmw1.boldmss.com
+Protocol 2
+User root
+Port 22
+IdentityFile ~/.ssh/id_rsa
+
+
+
+
+########################################################################################
+#
+#                                        S W E E T W O R K S
+#
+########################################################################################
+
+Host ecom-nfs
+Hostname 54.187.150.141
+Protocol 2
+User ubuntu
+IdentityFile ~/.ssh/Ecom-Production.pem 
+
+
+Host ecom-prod
+Hostname 54.186.108.85
+Protocol 2
+User ec2-user 
+IdentityFile ~/.ssh/Ecom-Production.pem
+
+Host ecom-stag
+Hostname 54.187.107.162
+Protocol 2
+User ec2-user 
+IdentityFile ~/.ssh/Ecom-Production.pem
+
+Host conq-prod
+Hostname 54.200.112.128
+Protocol 2
+User ec2-user 
+IdentityFile ~/.ssh/Ecom-Production.pem
+ 
+Host crons
+Hostname 54.187.68.105
+Protocol 2
+User ec2-user 
+IdentityFile ~/.ssh/spartan-sync.pem
+
