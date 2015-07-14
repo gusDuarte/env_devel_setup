@@ -108,9 +108,8 @@ alias docker-rm-all="docker rm $(docker ps -a -q)"
 
 
 #
-
 GPGKEY=A9E6A222
-DEBFULLNAME="Gustavo Duarte"
-DEBEMAIL="gus.duarte@gmail.com"
-export DEBEMAIL
-export DEBFULLNAME
+#DEBFULLNAME="Gustavo Duarte"
+#DEBEMAIL="gus.duarte@gmail.com"
+#export DEBEMAIL
+#export DEBFULLNAME
